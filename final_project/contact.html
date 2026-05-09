@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | John Kim Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">John Kim</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+      <ul id="site-menu" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="contact-layout">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s connect about web design, tutoring, or academic projects.</h1>
+        <p>I am interested in projects that involve clear communication, problem solving, and organized digital presentation.</p>
+        <button id="availability-button" class="button" type="button">Check availability</button>
+        <p id="availability-message" class="status-message" aria-live="polite">Availability has not been checked yet.</p>
+      </div>
+      <figure class="contact-figure">
+        <img src="images/NYU-campus-600.jpg" srcset="images/NYU-campus-600.jpg 1x, images/NYU-campus-1200.jpg 2x" width="600" height="400" alt="Washington Square Park and the NYU campus skyline in New York City">
+        <figcaption>Image credit: <a href="https://meet.nyu.edu/life/washington-square-park-nyus-campus-quad-in-every-season/">NYU Meet NYU, “Washington Square Park: NYU’s Campus Quad in Every Season”</a>.
+</figcaption>
+      </figure>
+    </section>
+
+    <section class="form-section" aria-labelledby="form-heading">
+      <h2 id="form-heading">Project Inquiry</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="button" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 John Kim | CSCI-UA 4 Web Design Final Project</p>
+  </footer>
+</body>
+</html>
